@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>YouTube con VAST - Click to Play</title>
+    <style>
+        .videosWrapper {
+            display: flex; /* Activa flexbox para los hijos directos, es decir, tus contenedores de video */
+            justify-content: space-around; /* Espacia los elementos uniformemente */
+            align-items: center; /* Alinea verticalmente los elementos en el centro */
+        }
+        #videoContainer,#videoContainer2 {
+            position: relative;
+            width: 405px; /* Ancho calculado para mantener la proporción 9:16 con una altura de 720px */
+            height: 720px; /* Altura deseada */
+        }
+    </style>
+</head>
+<body>
+<!-- Contenedor para el reproductor de YouTube y la publicidad -->
+<div class="videosWrapper">
+    <div id="videoContainer"></div>
+    <div id="videoContainer2"></div>
+</div>
+
+<script src="index.js"></script>
+<script type="application/javascript">
+    new YoutubeVideoWithAds('1B3c3KAN2eg', 'videoContainer');
+</script>
+
+<script type="application/javascript">
+        new YoutubeVideoWithAds('1B3c3KAN2eg', 'videoContainer2');
+</script>
+
+</body>
+</html>
