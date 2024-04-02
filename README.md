@@ -7,6 +7,7 @@ This project simplifies the integration of YouTube videos with Google's Interact
 - **YouTube Video Embedding**: Easily embed YouTube videos into your web pages.
 - **VAST Tag Ads**: Utilize the IMA SDK to display ads from VAST tags within your YouTube videos.
 - **Multi-Player Support**: Show more than one video on the same page, each with its own ads, without any conflicts.
+- **Responsive Design**: The YouTube player and ads adjust to the size of the container div, making it easy to incorporate into responsive web designs.
 - **Customizable**: Pass in your own YouTube video IDs and VAST tag URLs to display the content and ads you want.
 
 ## Getting Started
@@ -30,6 +31,10 @@ To use this project, follow these simple steps:
     - `YOUR_YOUTUBE_VIDEO_ID`: The ID of the YouTube video you want to embed.
     - `TARGET_DIV_ID`: The ID of the `div` where the YouTube player should be inserted.
     - `YOUR_VAST_TAG_URL`: The URL of your VAST tag for displaying ads.
+  
+## Responsive Design
+
+The players automatically adapt to the size of their container divs. This means you can control the size and aspect ratio of each video and its ads by simply setting the dimensions of the divs. This responsiveness ensures a seamless viewing experience across different devices and screen sizes.
 
 ## Example
 
