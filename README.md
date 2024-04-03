@@ -15,7 +15,7 @@ This project simplifies the integration of YouTube videos with Google's Interact
 
 To use this project, follow these simple steps:
 
-1. **Include the Script**: Download the `YoutubeVideoWithAds.js` script from this repository and include it in your project.
+1. **Include the Script**: Download the `YoutubeVideoWithAds js (index.js)` script from this repository and include it in your project.
 
 2. **Create a Target Div**: In your HTML, create a `div` where the YouTube player will be inserted.
 
