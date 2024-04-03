@@ -1,2 +1,2 @@
-## Licencia
-Este proyecto está licenciado bajo la Licencia Creative Commons Attribution-NonCommercial (CC BY-NC) - ver el archivo [LICENSE](LICENSE) para más detalles.
+## License
+This project is licensed under the Creative Commons Attribution-NonCommercial (CC BY-NC) License - see the [LICENSE](LICENSE) file for details.
