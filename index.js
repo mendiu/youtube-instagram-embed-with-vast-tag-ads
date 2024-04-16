@@ -207,8 +207,8 @@ class VideoWithAds {
 
     onAdsManagerLoaded(adsManagerLoadedEvent) {
         this.adsManager = adsManagerLoadedEvent.getAdsManager(this.videoContent);
-        this.adsManager.addEventListener(google.ima.AdEvent.Type.PAUSED, () => this.playInstaDisclaimer.style.display = 'block');
-        this.adsManager.addEventListener(google.ima.AdEvent.Type.RESUMED, () => this.playInstaDisclaimer.style.display = 'none');
+        this.adsManager.addEventListener(google.ima.AdEvent.Type.PAUSED, () => this.playAdButton.style.display = 'block');
+        this.adsManager.addEventListener(google.ima.AdEvent.Type.RESUMED, () => this.playAdButton.style.display = 'none');
         this.adsManager.addEventListener(google.ima.AdEvent.Type.CONTENT_RESUME_REQUESTED, () => this.onContentResumeRequested());
         this.adsManager.addEventListener(google.ima.AdEvent.Type.ALL_ADS_COMPLETED, () =>
             this.adContainer.style.display = 'none'
