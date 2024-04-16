@@ -7,49 +7,30 @@
             display: flex; /* Activa flexbox para los hijos directos, es decir, tus contenedores de video */
             justify-content: space-around; /* Espacia los elementos uniformemente */
             align-items: center; /* Alinea verticalmente los elementos en el centro */
-            margin-bottom: 50px;
         }
-        #videoContainerWide {
+        #videoContainer,#videoContainer2 {
             position: relative;
-            width: 460px; /* Ancho calculado para mantener la proporción 9:16 con una altura de 720px */
-            height: 300px; /* Altura deseada */
-        }
-        #videoContainerVertical {
-            position: relative;
-            width: 290px; /* Ancho calculado para mantener la proporción 9:16 con una altura de 720px */
-            height: 520px; /* Altura deseada */
-        }
-        #videoContainerSquare {
-            position: relative;
-            width: 300px; /* Ancho calculado para mantener la proporción 9:16 con una altura de 720px */
-            height: 300px; /* Altura deseada */
+            width: 405px; /* Ancho calculado para mantener la proporción 9:16 con una altura de 720px */
+            height: 720px; /* Altura deseada */
+            overflow: hidden;
         }
     </style>
 </head>
 <body>
 <!-- Contenedor para el reproductor de YouTube y la publicidad -->
 <div class="videosWrapper">
-    <div id="videoContainerWide"></div>
-    <div id="videoContainerSquare"></div>
-
+    <div id="videoContainer"></div>
+    <div id="videoContainer2"></div>
 </div>
-<div class="videosWrapper">
-    <div id="videoContainerVertical"></div>
 
-</div>
 <script src="index.js"></script>
 <script type="application/javascript">
-    new VideoWithAds('_qz4O1lbWrw', 'videoContainerWide');
+    new VideoWithAds('1B3c3KAN2eg', 'videoContainer')
 </script>
 
 <script type="application/javascript">
-    new VideoWithAds('C5EThY7Nh6F', 'videoContainerVertical',"instagram");
+    new VideoWithAds('C5EThY7Nh6F', 'videoContainer2', 'instagram');
 </script>
-<script type="application/javascript">
-    new VideoWithAds('_qz4O1lbWrw', 'videoContainerSquare',"youtube");
-</script>
-
-    
 
 </body>
 </html>
