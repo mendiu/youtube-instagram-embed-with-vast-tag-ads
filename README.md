@@ -54,9 +54,9 @@ Here's a complete example that embeds a YouTube video and displays ads using a V
 <body>
     <div id="youtube-player-1"></div>
 
-    <script src="path/to/YoutubeVideoWithAds.js"></script>
+    <script src="path/to/VideoWithAds.js"></script>
     <script>
-        new YoutubeVideoWithAds('dQw4w9WgXcQ', 'youtube-player-1', 'https://example.com/vast-tag-url.xml');
+        new VideoWithAds('dQw4w9WgXcQ', 'youtube-player-1', 'youtube', 'https://example.com/vast-tag-url.xml');
     </script>
 </body>
 </html>
@@ -77,13 +77,13 @@ To embed multiple YouTube videos with their respective ads on the same page, you
     <div id="youtube-player-1"></div>
     <div id="youtube-player-2"></div>
 
-    <script src="path/to/YoutubeVideoWithAds.js"></script>
+    <script src="path/to/VideoWithAds.js"></script>
     <script>
         // Initialize the first video
-        new YoutubeVideoWithAds('dQw4w9WgXcQ', 'youtube-player-1', 'https://example.com/vast-tag-url-1.xml');
+        new VideoWithAds('dQw4w9WgXcQ', 'youtube-player-1', 'youtube', 'https://example.com/vast-tag-url-1.xml');
 
         // Initialize the second video
-        new YoutubeVideoWithAds('sTSA_sWGM44', 'youtube-player-2', 'https://example.com/vast-tag-url-2.xml');
+        new VideoWithAds('sTSA_sWGM44', 'youtube-player-2', 'instagram', 'https://example.com/vast-tag-url-2.xml');
     </script>
 </body>
 </html>
