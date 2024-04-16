@@ -1,4 +1,4 @@
-# YouTube and Instsagram Embed with IMASDK for VAST Tag Ads
+# YouTube and Instagram Embed with IMASDK for VAST Tag Ads
 
 This project simplifies the integration of YouTube videos with Google's Interactive Media Ads (IMA) SDK, enabling the display of VAST tag ads within embedded YouTube videos. Designed with multi-player ads management in mind, it allows for multiple videos to be shown on the same page, each with its own set of ads.
 [Preview](https://mendiu.github.io/youtube-embed-with-vast-tag-ads/)
